@@ -365,6 +365,17 @@ img {
 .menu-bottom span {
     font-size: 18px;
 }
+.menu-bottom a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* About */
 .about-section {
     background-color: var(--dark);
